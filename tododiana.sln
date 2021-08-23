@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.223
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tododiana.Common", "tododiana.Common\tododiana.Common.csproj", "{746C4364-029E-41F4-BFCB-F448D65988CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tododiana.Functions", "tododiana.Functions\tododiana.Functions.csproj", "{EC62AC3A-5FAC-405A-AE3D-78C43205127D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tododiana.Tests", "tododiana.Tests\tododiana.Tests.csproj", "{81C6C96C-5997-420E-8632-C332D6BAD088}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746C4364-029E-41F4-BFCB-F448D65988CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746C4364-029E-41F4-BFCB-F448D65988CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746C4364-029E-41F4-BFCB-F448D65988CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746C4364-029E-41F4-BFCB-F448D65988CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC62AC3A-5FAC-405A-AE3D-78C43205127D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC62AC3A-5FAC-405A-AE3D-78C43205127D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC62AC3A-5FAC-405A-AE3D-78C43205127D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC62AC3A-5FAC-405A-AE3D-78C43205127D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C6C96C-5997-420E-8632-C332D6BAD088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C6C96C-5997-420E-8632-C332D6BAD088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C6C96C-5997-420E-8632-C332D6BAD088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C6C96C-5997-420E-8632-C332D6BAD088}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
