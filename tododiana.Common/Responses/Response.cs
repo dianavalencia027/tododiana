@@ -4,7 +4,7 @@ using System.Text;
 
 namespace tododiana.Common.Responses
 {
-    class Response
+    public class Response
     {
         public bool IsSuccess { get; set; }
 
