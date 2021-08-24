@@ -5,7 +5,7 @@ using System.Text;
 
 namespace tododiana.Functions.Entities
 {
-    class TodoEntity : TableEntity
+    public class TodoEntity : TableEntity
     {
         public DateTime CreatedTime { get; set; }
 
